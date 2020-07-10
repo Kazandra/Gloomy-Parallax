@@ -30,17 +30,15 @@
   height: 20vh;
   object-fit: cover;
   overflow: hidden;
-  background-color: #c6916f;
+  background-color: #c4a38d;
   animation-name: glowing;
-  animation-duration: 4s;
-  animation-iteration-count: 4;
+  animation-duration: 3s;
+  animation-iteration-count: 5;
 }
 @keyframes glowing {
-  0%   {background-color: #c6916f;}
-  25%  {background-color: #DCBDA8;}
-  50%  {background-color: #E8D3C5;}
-  75%  {background-color: #DCBDA8;}
-  100% {background-color: #c6916f;}
+  0%   {background-color: #c4a38d;}
+  50%  {background-color: #cfc2ba;}
+  100% {background-color: #c4a38d;}
 }
 #trees
 {
