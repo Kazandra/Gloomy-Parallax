@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="Main_Section">
+    <img src="img/streetlightsss.png" id="streetlight">
+    <img src="img/trees.png" id="trees">
+    <div id="glow">
+    </div>
+  </div>
+  <script type="text/javascript">
+    let bg = document.getElementById("trees");
+
+    window.addEventListener('scroll', function(){
+      var value = window.scrollY;
+
+      trees.style.top = value * 0.5 + 'px';
+    })
+  </script>
+</body>
+
+
+</html>

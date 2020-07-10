@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#Main_Section
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background:black;
+  min-height: 1500px;
+  overflow-x: hidden;
+}
+#streetlight
+{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+}
+#glow
+{
+  position: absolute;
+  z-index: 99;
+  bottom: 35%;
+  left: 48%;
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: #c6916f;
+  animation-name: glowing;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+}
+@keyframes glowing {
+  0%   {background-color: #c6916f;}
+  25%  {background-color: #DCBDA8;}
+  50%  {background-color: #E8D3C5;}
+  75%  {background-color: #DCBDA8;}
+  100% {background-color: #c6916f;}
+}
+#trees
+{
+  width: auto;
+  height: 100vh;
+  position: relative;
+  mix-blend-mode: color;
+  z-index: 105;
+}
