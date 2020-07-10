@@ -33,8 +33,8 @@
   overflow: hidden;
   background-color: #c6916f;
   animation-name: glowing;
-  animation-duration: 8s;
-  animation-iteration-count: 3;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
 }
 @keyframes glowing {
   0%   {background-color: #c6916f;}
