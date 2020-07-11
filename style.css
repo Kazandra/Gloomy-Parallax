@@ -31,9 +31,7 @@
   object-fit: cover;
   overflow: hidden;
   background-color: #c4a38d;
-  animation-name: glowing;
-  animation-duration: 3s;
-  animation-iteration-count: 5;
+  animation: glowing 3s linear infinite;
 }
 @keyframes glowing {
   0%   {background-color: #c4a38d;}
