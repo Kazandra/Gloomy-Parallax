@@ -1,4 +1,4 @@
-# Gloomy-Parallax.github.io
+# Gloomy-Parallax
 Parallax scrolling with centered glowing light using HTML,CSS, and JavaScript.
 
 Notable features:
