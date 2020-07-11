@@ -7,7 +7,7 @@
 {
   height: 100vh;
   width: 100%;
-  background:black;
+  background: black;
   min-height: 1500px;
   overflow-x: hidden;
 }
@@ -20,24 +20,6 @@
   position: absolute;
   z-index: 100;
 }
-#glow
-{
-  position: absolute;
-  z-index: 99;
-  bottom: 35%;
-  left: 48%;
-  width: 20vh;
-  height: 20vh;
-  object-fit: cover;
-  overflow: hidden;
-  background-color: #c4a38d;
-  animation: glowing 3s linear infinite;
-}
-@keyframes glowing {
-  0%   {background-color: #c4a38d;}
-  50%  {background-color: #cfc2ba;}
-  100% {background-color: #c4a38d;}
-}
 #trees
 {
   width: auto;
@@ -45,4 +27,37 @@
   position: relative;
   mix-blend-mode: color;
   z-index: 105;
+}
+#glow
+{
+  position: absolute;
+  z-index: 90;
+  bottom: 35%;
+  left: 48%;
+  width: 20vh;
+  height: 20vh;
+  overflow: hidden;
+  animation: glowing 2s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes glowing {
+  0%   {background-color: #FAF0E6;}
+  50%  {background-color: #FFE4B5;}
+  100% {background-color: #FAF0E6;}
+}
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track
+{
+  background: black;
+}
+::-webkit-scrollbar-thumb
+{
+  background: #034e65
+}
+::-webkit-scrollbar-thumb:hover
+{
+
 }
