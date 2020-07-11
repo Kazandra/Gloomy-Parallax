@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 /*------------------------------------------------------------------------------
 Added the foreground and background of the main section
 ------------------------------------------------------------------------------*/
@@ -51,7 +50,6 @@ Added the glowing affect using the imbedded CSS animation feature
   50%  {background-color: #FFE4B5;}
   100% {background-color: #FAF0E6;}
 }
-
 /*------------------------------------------------------------------------------
 Edited the scrollbar to match the theme of the site
 ------------------------------------------------------------------------------*/
