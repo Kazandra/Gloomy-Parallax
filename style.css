@@ -5,11 +5,9 @@
 }
 #Main_Section
 {
-  height: 100vh;
   width: 100%;
   background: black;
-  min-height: 1500px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #streetlight
 {
@@ -59,5 +57,14 @@
 }
 ::-webkit-scrollbar-thumb:hover
 {
-
+  background: #066b8a;
+}
+#text
+{
+  width: 100%;
+  height: 50vh;
+  background: black;
+  position: absolute;
+  font-size: 10em;
+  color: white;
 }

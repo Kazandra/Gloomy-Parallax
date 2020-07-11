@@ -8,9 +8,13 @@
     <img src="img/streetlight.png" id="streetlight">
     <img src="img/trees.png" id="trees">
     <div id="glow"></div>
+    <div id="text">
+      Gloomy-Parallax
+    </div>
   </div>
   <script type="text/javascript">
-    let Mtrees = document.getElementById("trees");
+    let trees = document.getElementById("trees");
+    let text = document.getElementById("text");
 
     window.addEventListener('scroll', function(){
       var value = window.scrollY;
