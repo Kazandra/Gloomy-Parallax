@@ -76,7 +76,7 @@ Edited text with a linear-gradient to match the effect of the glowing light
 #text
 {
   width: 100%;
-  height: 40vh;
+  height: auto;
   background: black;
   position: absolute;
 }
